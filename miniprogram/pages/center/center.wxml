@@ -1,0 +1,39 @@
+<!--miniprogram/pages/center/center.wxml-->
+<view class="page center_page">
+  <view wx:if="{{isLogin}}">
+    <view class="user_wrap">
+      <van-image round width="4rem" height="4rem" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+      <view class="user-info">
+        <view>{{userInfo.nickname}}</view>
+        <view>{{userInfo.point}}积分</view>
+      </view>
+    </view>
+    <view class="card">
+      <view class="card-body"></view>
+      <view class="card-footer">
+        <view class="left">
+          <view>余额</view>
+          <view class="balance">
+            <text>￥</text><text>{{userInfo.balance}}</text>
+            <view>付款</view>
+          </view>
+        </view>
+        <view class="right">
+          <text>钱包</text>
+          <van-icon name="arrow" />
+        </view>
+      </view>
+    </view>
+    <view>
+      <van-cell-group>
+        <van-cell title="配送地址" is-link url="/pages/address/address"/>
+        <van-cell title="投诉建议" is-link />
+        <van-cell title="条款规则" is-link />
+      </van-cell-group>
+    </view>
+  </view>
+  <view class="login_wrap" wx:else>
+    <van-image round width="10rem" height="10rem" border src="/images/no_login.png" />
+    <van-button color="#ffc508" size="large" bindtap="handleLogin">登录</van-button>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+/* miniprogram/pages/address.wxss */
+.address-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10rem;
+  padding:1rem 1rem ;
+}
+text {
+  margin-bottom: 1rem;
+}

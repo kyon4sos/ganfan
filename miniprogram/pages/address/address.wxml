@@ -1,0 +1,7 @@
+<!--miniprogram/pages/address.wxml-->
+<view>
+ <view class="address-page">
+  <text>您还没有地址，请添加</text>
+  <van-button icon="plus" type="primary" size="large">添加配送地址</van-button>
+ </view>
+</view>
