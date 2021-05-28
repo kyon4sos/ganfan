@@ -13,7 +13,8 @@
     "pages/openapi/cloudid/cloudid",
     "pages/center/center",
     "pages/address/address",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/userAgreement/userAgreement"
   ],
   "tabBar": {
     "selectedColor": "#ffc508",
@@ -37,7 +38,7 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "neko studio",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
@@ -46,6 +47,7 @@
     "van-image": "@vant/weapp/image/index",
     "van-icon": "@vant/weapp/icon/index",
     "van-cell": "@vant/weapp/cell/index",
-    "van-cell-group": "@vant/weapp/cell-group/index"
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-loading": "@vant/weapp/loading/index"
   }
 }

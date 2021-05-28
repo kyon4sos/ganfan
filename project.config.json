@@ -45,6 +45,11 @@
   "appid": "wx9053cabca0bd8a40",
   "projectname": "ganfan",
   "libVersion": "2.14.1",
+  "minigameRoot": "",
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "search": {
       "list": []
@@ -67,6 +72,5 @@
         }
       ]
     }
-  },
-  "minigameRoot": ""
+  }
 }

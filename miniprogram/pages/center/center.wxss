@@ -6,21 +6,21 @@
   margin-bottom: 1rem;
 }
 .user-info {
-  padding-left: 1rem;
-  font-size: 1.2rem;
+  padding-left: 30rpx;
+  font-size: 10rpx;
 }
 .user-info view:nth-child(1) {
-  font-size: 1.4rem;
+  font-size: 34rpx;
 }
 .user-info view:nth-child(2) {
-  font-size: 1.1rem;
+  font-size: 24rpx;
   color: #636262;
 }
 .card {
-  height: 8rem;
+  height: 240rpx;
   background-color: #ffc508;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
+  border-radius: 30rpx;
+  margin-bottom: 30rpx;
 }
 .card-body {
   width: 100%;
@@ -33,20 +33,20 @@
   justify-content: space-between;
 }
 .card-footer .left {
-  padding-left: 1rem;
+  padding-left: 20rpx;
 }
 .card .balance {
   display: flex;
   align-items: center;
 }
 .card .balance text:nth-child(2){
-  font-size: 1.4rem;
+  font-size: 50rpx;
   font-weight: 600;
 }
 .card .balance view {
-  width: 3rem;
-  height: 1.6rem;
-  font-size: 0.6rem;
+  width: 100rpx;
+  height: 50rpx;
+  font-size: 24rpx;
   display: flex;
   align-items: center;
   text-align: center;
@@ -55,16 +55,16 @@
   color: aliceblue;
   font-weight: 500;
   text-align: center;
-  border-radius: 0.6rem;
-  margin-left:0.4rem;
+  border-radius: 20rpx;
+  margin-left:10rpx;
 }
 .card-footer .right {
-  width: 10rem;
-  height: 3rem;
-  padding-right:0.6rem;
+  width: 240rpx;
+  height: 100rpx;
+  padding-right:10rpx;
   text-align: center;
-  border-top-left-radius: 2rem;
-  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 40rpx;
+  border-bottom-left-radius: 40rpx;
   background-color: rgb(245, 219, 76);
   display: flex;
   align-items: center;
@@ -72,5 +72,11 @@
 }
 .login_wrap {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 200rpx;
+}
+.login_wrap .van-image {
+  margin-bottom: 60rpx;
+}
+view.card > view.card-footer > view.left > view:nth-child(1) {
+  font-size: 24rpx;
 }

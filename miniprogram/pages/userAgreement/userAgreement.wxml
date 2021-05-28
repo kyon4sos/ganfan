@@ -1,0 +1,10 @@
+<!--miniprogram/pages/userAgreement/userAgreement.wxml-->
+<van-cell-group>
+  <van-cell title="积分规则" is-link />
+  <van-cell title="使用条款" is-link />
+  <van-cell title="隐私政策" is-link />
+  <van-cell title="信息公示" is-link />
+  <van-cell title="购卡协议" is-link />
+  <van-cell title="购买须知" is-link />
+  <van-cell title="预付卡规则" is-link />
+</van-cell-group>
